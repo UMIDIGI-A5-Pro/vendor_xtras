@@ -1,4 +1,4 @@
-# Copyright (C) 2020 MSM-Xtended Project
+# Copyright (C) 2020  BlissRoms 
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,37 +15,13 @@ LOCAL_PATH := $(call my-dir)
 
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
-DEVICE_PACKAGE_OVERLAYS += vendor/xtras/overlay/common
-ifeq ($(EXTRA_FOD_ANIMATIONS),true)
-DEVICE_PACKAGE_OVERLAYS += vendor/xtras/overlay/fod
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/xtras/overlay/fod
-endif
+# OPLauncher
+include vendor/xtras/oplauncher/OPLauncher2.mk
 
-# Include Xtended theme files
-include vendor/xtras/themes/themes.mk
-
-# Include Xtended font files
-include vendor/xtras/fonts/fonts.mk
-
-# Include Xtended QS Style files
-include vendor/xtras/QS/qsstyle.mk
-
-# Include Xtended Switch Styles
-include vendor/xtras/Switch/switch.mk
-
-# Include Xtended Qs Tile Styles
-include vendor/xtras/QsThemes/qstheme.mk
-
-# Include Gvm Styles
-include vendor/xtras/Gvm/gvm.mk
-
-# Xtended packages
+# Bliss Xtras packages
 PRODUCT_PACKAGES += \
     VinylMusicPlayer \
-    GalleryPrebuilt \
     GBoardPrebuilt \
-    SafetyHubPrebuilt \
-    SettingsIntelligenceGooglePrebuilt \
-    ViaBrowser
+    QPGallery 
 
 #End
