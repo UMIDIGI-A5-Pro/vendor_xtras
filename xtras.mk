@@ -16,7 +16,10 @@ LOCAL_PATH := $(call my-dir)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
 # OPLauncher
+ifeq ($(USE_OP_LAUNCHER),true)
+PRODUCT_PACKAGES += \
 include vendor/xtras/oplauncher/OPLauncher2.mk
+endif
 
 # Bliss Xtras packages
 PRODUCT_PACKAGES += \
