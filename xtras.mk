@@ -27,4 +27,8 @@ PRODUCT_PACKAGES += \
     GBoardPrebuilt \
     QPGallery 
 
+# Permissions
+PRODUCT_COPY_FILES += \
+    vendor/xtras/permissions/privapp-permissions-blissify-system.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-blissify-system.xml
+
 #End
