@@ -25,10 +25,12 @@ endif
 PRODUCT_PACKAGES += \
     VinylMusicPlayer \
     GBoardPrebuilt \
-    QPGallery 
+    QPGallery \
+    GoogleCamera
 
 # Permissions
 PRODUCT_COPY_FILES += \
-    vendor/xtras/permissions/privapp-permissions-blissify-system.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-blissify-system.xml
+    vendor/xtras/permissions/privapp-permissions-blissify-system.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-blissify-system.xml \
+    vendor/xtras/permissions/org.codeaurora.snapcam.xml:system/etc/permissions/org.codeaurora.snapcam.xml
 
 #End
