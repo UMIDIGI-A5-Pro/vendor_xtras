@@ -23,10 +23,10 @@ endif
 
 # Bliss Xtras packages
 PRODUCT_PACKAGES += \
-    VinylMusicPlayer \
     GBoardPrebuilt \
+    GoogleCamera \
     QPGallery \
-    GoogleCamera
+    RetroMusicPlayer
 
 # Permissions
 PRODUCT_COPY_FILES += \
