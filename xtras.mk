@@ -15,22 +15,14 @@ LOCAL_PATH := $(call my-dir)
 
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
-# OPLauncher
-ifeq ($(USE_OP_LAUNCHER),true)
-PRODUCT_PACKAGES += \
-include vendor/xtras/oplauncher/OPLauncher2.mk
-endif
-
 # Bliss Xtras packages
 PRODUCT_PACKAGES += \
-    GBoardPrebuilt \
-    GoogleCamera \
+    GBoard \
     QPGallery \
     RetroMusicPlayer
 
 # Permissions
 PRODUCT_COPY_FILES += \
-    vendor/xtras/permissions/privapp-permissions-blissify-system.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-blissify-system.xml \
-    vendor/xtras/permissions/org.codeaurora.snapcam.xml:system/etc/permissions/org.codeaurora.snapcam.xml
+    vendor/xtras/permissions/privapp-permissions-ancient-system.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-ancient-system.xml
 
 #End
