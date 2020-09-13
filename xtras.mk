@@ -17,12 +17,7 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
 # Bliss Xtras packages
 PRODUCT_PACKAGES += \
-    GBoard \
-    QPGallery \
+    GBoard2 \
     RetroMusicPlayer
-
-# Permissions
-PRODUCT_COPY_FILES += \
-    vendor/xtras/permissions/privapp-permissions-ancient-system.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-ancient-system.xml
 
 #End
