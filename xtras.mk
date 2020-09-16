@@ -18,6 +18,11 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 # Bliss Xtras packages
 PRODUCT_PACKAGES += \
     GBoard2 \
-    RetroMusicPlayer
+    RetroMusicPlayer \
+    MiXplorer
+
+# Permissions
+PRODUCT_COPY_FILES += \
+    vendor/xtras/permissions/privapp-permissions-blissify-system.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-blissify-system.xml \
 
 #End
