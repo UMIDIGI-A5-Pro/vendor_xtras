@@ -1,6 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
-# GBoard2
+# Gboard2
 include $(CLEAR_VARS)
 LOCAL_MODULE := Gboard2
 LOCAL_MODULE_TAGS := optional
