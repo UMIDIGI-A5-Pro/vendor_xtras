@@ -1,8 +1,8 @@
 LOCAL_PATH := $(call my-dir)
 
-# GBoard2
+# Gboard2
 include $(CLEAR_VARS)
-LOCAL_MODULE := GBoard2
+LOCAL_MODULE := Gboard2
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := priv-app/$(LOCAL_MODULE).apk
 LOCAL_CERTIFICATE := PRESIGNED
