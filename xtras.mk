@@ -19,7 +19,8 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 PRODUCT_PACKAGES += \
     GBoard2 \
     RetroMusicPlayer \
-    MiXplorer
+    MiXplorer \
+    Firefox
 
 # Permissions
 PRODUCT_COPY_FILES += \
