@@ -47,9 +47,9 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/priv-app
 LOCAL_OVERRIDES_PACKAGES := Eleven Music
 include $(BUILD_PREBUILT)
 
-# Firefox
+# Esge
 include $(CLEAR_VARS)
-LOCAL_MODULE := Firefox
+LOCAL_MODULE := Edge
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := priv-app/$(LOCAL_MODULE).apk
 LOCAL_CERTIFICATE := PRESIGNED

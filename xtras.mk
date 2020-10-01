@@ -21,7 +21,7 @@ PRODUCT_PACKAGES += \
     MiXplorer \
     QPGallery \
     RetroMusicPlayer \
-    Firefox
+    Edge
 
 # Permissions
 PRODUCT_COPY_FILES += \
