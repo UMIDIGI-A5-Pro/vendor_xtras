@@ -17,7 +17,7 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
 # Bliss Xtras packages
 PRODUCT_PACKAGES += \
-    Gboard2 \
+    GBoard2 \
     MiXplorer \
     QPGallery \
     RetroMusicPlayer \
