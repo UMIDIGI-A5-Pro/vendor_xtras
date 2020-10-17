@@ -35,9 +35,9 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/priv-app
 LOCAL_OVERRIDES_PACKAGES := Gallery Gallery2 Gallery3D GalleryNew3D GalleryGoPrebuilt
 include $(BUILD_PREBUILT)
 
-# RetroMusicPlayer
+# RetroMusic
 include $(CLEAR_VARS)
-LOCAL_MODULE := RetroMusicPlayer
+LOCAL_MODULE := RetroMusic
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := priv-app/$(LOCAL_MODULE).apk
 LOCAL_CERTIFICATE := PRESIGNED

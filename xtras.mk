@@ -20,7 +20,7 @@ PRODUCT_PACKAGES += \
     GBoard2 \
     MiXplorer \
     QPGallery \
-    RetroMusicPlayer \
+    RetroMusic \
     Edge
 
 # Permissions
