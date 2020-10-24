@@ -21,7 +21,8 @@ PRODUCT_PACKAGES += \
     MiXplorer \
     QPGallery \
     RetroMusic \
-    Edge
+    Edge \
+    NovaLauncher
 
 # Permissions
 PRODUCT_COPY_FILES += \
