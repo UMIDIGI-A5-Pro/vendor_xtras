@@ -20,6 +20,7 @@ PRODUCT_PACKAGES += \
     GBoard2 \
     RetroMusic \
     MiXplorer \
-    NovaLauncher
+    NovaLauncher \
+    Clock
 
 #End
