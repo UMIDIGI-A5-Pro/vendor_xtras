@@ -12,9 +12,9 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/priv-app
 LOCAL_OVERRIDES_PACKAGES := LatinIME
 include $(BUILD_PREBUILT)
 
-# RetroMusic
+# StellioPlayer
 include $(CLEAR_VARS)
-LOCAL_MODULE := RetroMusic
+LOCAL_MODULE := StellioPlayer
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := priv-app/$(LOCAL_MODULE).apk
 LOCAL_CERTIFICATE := PRESIGNED
