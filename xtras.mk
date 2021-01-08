@@ -20,8 +20,7 @@ PRODUCT_PACKAGES += \
     GBoard2 \
     MiXplorer \
     QPGallery \
-    RetroMusic \
-    Edge \
+    StellioPlayer \
     NovaLauncher
 
 # Permissions
