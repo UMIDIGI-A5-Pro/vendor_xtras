@@ -17,11 +17,8 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
 # Bliss Xtras packages
 PRODUCT_PACKAGES += \
-    GBoard2 \
     MiXplorer \
-    QPGallery \
-    StellioPlayer \
-    NovaLauncher
+    QPGallery 
 
 # Permissions
 PRODUCT_COPY_FILES += \
